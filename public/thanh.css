@@ -1,0 +1,265 @@
+.button {
+    background: #08bf5a;
+    border-radius: 5px;
+    color: #ffffff;
+    display: inline-block;   
+    font-size: 14px;
+    font-weight: 700;
+    height: 36px;
+    overflow: hidden;
+    padding: 0 12px;        
+    position: relative;
+    transition: 0.3s ease-in-out;
+    width: auto;            
+    border: none;
+}
+
+.button:hover {
+    background: #23814d;
+}
+/*  */
+/*  */
+/* Input chung */
+.custom-input {
+    width: 355px;           
+    max-width: 100%;           
+    padding: 0.5rem 0.8rem;   
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    display: block;
+}
+
+/* Focus */
+.custom-input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+
+/*  */
+#keywordInput {
+    width: 355px;           
+    max-width: 100%;   
+    padding: 0.6rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    outline: none;
+}
+
+#keywordInput:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/*  */
+/*  */
+/* CSS cho link như button */
+.btn-link {
+    display: inline-block;       
+    padding: 0.4rem 1rem;        
+    background-color: #007bff;   
+    color: #fff;                 
+    text-decoration: none;       
+    border-radius: 6px;          
+    font-size: 1rem;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    outline: none;          
+    border: none;  
+}
+
+.btn-link:hover {
+    background-color: #0056b3;   
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.btn-link:active {
+    background-color: #004080;
+}
+.btn-link2 {
+    display: inline-block;       
+    padding: 0.4rem 1rem;        
+    background-color: #da1e0df4;   
+    color: #fff;                 
+    text-decoration: none;       
+    border-radius: 6px;          
+    font-size: 1rem;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    outline: none;          
+    border: none;    
+}
+
+.btn-link2:hover {
+    background-color: #b72323;   
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.btn-link2:active {
+    background-color: #b72323;
+}
+.btn-link1 {
+    display: inline-block;       
+    padding: 0.4rem 1rem;        
+    background-color: #ff9900;   
+    color: #fff;                 
+    text-decoration: none;       
+    border-radius: 6px;          
+    font-size: 1rem;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    outline: none;          
+    border: none;  
+}
+
+.btn-link1:hover {
+    background-color: #c68119;   
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.btn-link1:active {
+    background-color: #c68119;
+}
+/*  */
+
+/* Ẩn input file mặc định */
+.custom-file-input {
+    display: none;
+}
+
+/* Label giả làm button upload */
+.custom-file-label {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    text-align: center;
+}
+
+/* Hover effect */
+.custom-file-label:hover {
+    background-color: #0056b3;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+/* Khi file được chọn */
+.file-name {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 0.9rem;
+    color: #333;
+}
+
+/*  */
+/*  */
+@keyframes checkboxBounce {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    50% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+.checkbox01 {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    gap: 16px;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+.checkbox01 label {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #222;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 14px;
+    gap: 8px;
+    line-height: 1;
+}
+.checkbox01 label input[type=checkbox] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 20px;
+    position: relative;
+    width: 20px;
+    -webkit-transition: background 0.2s ease, border 0.2s ease, -webkit-transform 0.2s ease;
+    transition: background 0.2s ease, border 0.2s ease, -webkit-transform 0.2s ease;
+    transition: background 0.2s ease, border 0.2s ease, transform 0.2s ease;
+    transition: background 0.2s ease, border 0.2s ease, transform 0.2s ease, -webkit-transform 0.2s ease;
+}
+.checkbox01 label input[type=checkbox]:checked {
+    -webkit-animation: checkboxBounce 0.3s ease-in-out;
+    animation: checkboxBounce 0.3s ease-in-out;
+    background: #5799db;
+    border: 1px solid #5799db;
+}
+.checkbox01 label input[type=checkbox]:checked::before {
+    position: absolute;
+    top: 3px;
+    left: 6px;
+    -webkit-transform: rotate(50deg);
+    transform: rotate(50deg);
+    width: 6px;
+    height: 10px;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    content: "";
+}
+.checkbox01 label input[type=checkbox]:checked:hover {
+    background: #5799db;
+    border: 1px solid #5799db;
+}
+.checkbox01 label input[type=checkbox]:checked:hover::before {
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+}
+.checkbox01 label input[type=checkbox]:hover {
+    background: #f8f8f8;
+    -webkit-transition: background 0.2s ease;
+    transition: background 0.2s ease;
+}
+.checkbox01 label input[type=checkbox]:hover::before {
+    position: absolute;
+    top: 3px;
+    left: 6px;
+    -webkit-transform: rotate(50deg);
+    transform: rotate(50deg);
+    width: 6px;
+    height: 10px;
+    border-right: 2px solid #ddd;
+    border-bottom: 2px solid #ddd;
+    content: "";
+}
+.checkbox01 label input[type=checkbox]:checked + span {
+    color: #5799db;
+    font-weight: 700;
+    margin-top: 0;
+}
