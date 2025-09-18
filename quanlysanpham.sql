@@ -114,16 +114,8 @@ CREATE TABLE `products` (
 
 INSERT INTO `products` (`id`, `name`, `description`, `price`, `image`, `is_valid`, `created_at`, `updated_at`) VALUES
 (4, 'Sản phẩm C', 'SPC', 10000.00, '\"[\\\"products\\\\\\/4ij4olcoefvUYs2tmpZgP1VNooWwjHfkfeUiexwx.png\\\",\\\"products\\\\\\/mOjcAQwln7Y92C9cIkdCNmlrsnNHohsHxTOx8MuN.png\\\"]\"', 1, '2025-09-15 21:20:17', '2025-09-17 10:49:12'),
-(5, 'Sản phẩm D', 'ff', 3333.00, '\"[\\\"products\\\\\\/s50r4R2I6se88KZtXm9yiUNpXuNKWCsC15aEt4Q4.png\\\"]\"', 1, '2025-09-15 21:32:39', '2025-09-15 21:32:39'),
-(10, 'Sản phẩm 1', 'Mô tả sản phẩm 1', 100000.00, '\"[\\\"products\\\\\\/5tCOADeXoEM44bgA1a4lHo60e1uqIHVPcQpNEMo3.png\\\"]\"', 1, '2025-09-17 16:29:54', '2025-09-17 20:25:59'),
-(11, 'Sản phẩm 2', 'Mô tả sản phẩm 2', 120000.00, '\"[\\\"products\\\\\\/1YClOM7Y2epdakVFDxTHrgiJKlKfzyOFiYMvEilg.png\\\"]\"', 1, '2025-09-17 16:29:54', '2025-09-17 20:14:34'),
-(12, 'Sản phẩm 3', 'Mô tả sản phẩm 3', 90000.00, '\"[\\\"products\\\\\\/JfDKf6Ndol55POnztM81HHt7zkwHkMdLXrjC9gbl.jpg\\\"]\"', 1, '2025-09-17 16:29:54', '2025-09-17 09:34:47'),
-(13, 'Sản phẩm 4', 'Mô tả sản phẩm 4', 150000.00, '\"[\\\"products\\\\\\/fxonTi23FgNGIbIn7hQOtvJMSh0irs2ZlihktWLL.jpg\\\"]\"', 0, '2025-09-17 16:29:54', '2025-09-17 09:34:54'),
-(14, 'Sản phẩm 5', 'Mô tả sản phẩm 5', 200000.00, '\"[\\\"products\\\\\\/sAlEnjychGqAsRXo2NHnos7UPrFk1RGGvRD4oLFP.jpg\\\"]\"', 1, '2025-09-17 16:29:54', '2025-09-17 09:35:01'),
-(15, 'Sản phẩm 6', 'Mô tả sản phẩm 6', 110000.00, '\"[\\\"products\\\\\\/XqxKdlwBBQKOFUIbXBrkWYbEB6iR10Ei7FXHUUr2.jpg\\\"]\"', 1, '2025-09-17 16:29:54', '2025-09-17 09:35:06'),
-(16, 'Sản phẩm 7', 'Mô tả sản phẩm 7', 130000.00, '\"[\\\"products\\\\\\/9NefKhFw7ZWxo3WOCubivq1MI8tSPOIH89Y6kDjV.jpg\\\"]\"', 0, '2025-09-17 16:29:54', '2025-09-17 09:35:23'),
-(20, 'Sản phẩm A', 'hdhdsch', 100000.00, '\"[\\\"products\\\\\\/108EXujl0tU2rC5LrTqL9ACQx1CkSxnvMujmY0BJ.png\\\"]\"', 1, '2025-09-17 10:51:09', '2025-09-17 10:51:09'),
-(21, 'Sản phẩm A', NULL, 10000.00, '\"[\\\"products\\\\\\/JYl7wJbpzHaRYl6aBi1hpiCSOaeiiS1qXJQlZ3aJ.png\\\"]\"', 1, '2025-09-17 20:41:26', '2025-09-17 20:41:26');
+
+
 
 -- --------------------------------------------------------
 

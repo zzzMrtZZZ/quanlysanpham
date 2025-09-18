@@ -20,12 +20,18 @@
 </form>
 
 <script>
-  const input = document.getElementById('keywordInput');
-  const form = document.getElementById('searchForm');
-  input.addEventListener('input', function() {
-      form.submit(); 
-  });
+const input = document.getElementById('keywordInput');
+const form = document.getElementById('searchForm');
+let timeout = null;
+
+input.addEventListener('input', function() {
+    clearTimeout(timeout); 
+    timeout = setTimeout(() => {
+        form.submit(); 
+    }, 500); 
+});
 </script>
+
 
 <div class="row">
   @forelse($products as $p)
@@ -53,7 +59,7 @@
         </h5>
         <p class="card-text">{{ Str::limit($p->description, 80) }}</p>
         <p><strong>{{ number_format($p->price,0) }} đ</strong></p>
-        
+
         <a href="{{ route('products.show',$p) }}" class="btn-link">Xem</a>
         @auth
           <a href="{{ route('products.edit',$p) }}" class="btn-link1">Sửa</a>
